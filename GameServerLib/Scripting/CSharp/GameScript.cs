@@ -14,5 +14,7 @@ namespace LeagueSandbox.GameServer.Scripting.CSharp
         void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target);
 
         void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile);
+
+        void OnUpdate(float diff);
     }
 }

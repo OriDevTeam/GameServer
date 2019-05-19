@@ -24,5 +24,9 @@ namespace LeagueSandbox.GameServer.Scripting.CSharp
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
+
+        public void OnUpdate(float diff)
+        {
+        }
     }
 }

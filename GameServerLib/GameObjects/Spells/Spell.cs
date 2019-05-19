@@ -203,6 +203,8 @@ namespace LeagueSandbox.GameServer.GameObjects.Spells
                     }
                     break;
             }
+
+            _spellGameScript.OnUpdate(diff);
         }
 
         /// <summary>
